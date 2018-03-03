@@ -1,0 +1,13 @@
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\InnovasysVatCheck.Data.dll.config
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\InnovasysVatCheck.Data.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\InnovasysVatCheck.Data.pdb
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\EntityFramework.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\EntityFramework.xml
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\obj\Debug\InnovasysVatCheck.Data.csprojResolveAssemblyReference.cache
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\obj\Debug\InnovasysVatCheck.Data.csproj.CoreCompileInputs.cache
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\obj\Debug\InnovasysVatCheck.Data.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\obj\Debug\InnovasysVatCheck.Data.pdb
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\InnovasysVatCheck.Models.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Data\bin\Debug\InnovasysVatCheck.Models.pdb

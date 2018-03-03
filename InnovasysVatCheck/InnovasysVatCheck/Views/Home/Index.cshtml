@@ -1,0 +1,42 @@
+﻿@model List<InnovasysVatCheck.Data.Vat>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<table class="table table-hover">
+    @foreach (var vatNum in Model)
+    {
+        <tr class="show_details" data-id=@Html.DisplayFor(vm => vatNum.Id) style="cursor: pointer">
+            <th class="col-sm-6 text-center">
+                @Html.Label(Html.DisplayFor(vm => vatNum.VatNumber).ToString(), new { style = "cursor:pointer" })
+            </th>
+        </tr>
+        <tr class="hide_details" data-id=@Html.DisplayFor(vm => vatNum.Id) id="show_details_container_@Html.DisplayFor(vm => vatNum.Id)"></tr>
+    }
+</table>
+
+<script>
+    $('.show_details').click(function (e) {
+        
+        var currentId = this.getAttribute("data-id");
+        $("#show_details_container_" + currentId).css("display", "block");
+        $('.show_details').css("cursor", "default");
+        $.ajax({
+            type: "GET",
+            url: "/home/_index",
+            data: { id: currentId },
+            success: function (data) {
+                $("#show_details_container_" + currentId).html(data);
+            },
+            error: function () {
+                alert("ДДС номерът може да съдържа само латински букви и цифри. Пример: BG123456789");
+            }
+        });
+
+    });
+    $(".hide_details").click(function () {
+        var currentId = this.getAttribute("data-id");
+        $("#show_details_container_" + currentId).css("display", "none");
+        $('.show_details').css("cursor", "pointer");
+    });
+</script>

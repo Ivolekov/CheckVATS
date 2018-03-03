@@ -1,0 +1,7 @@
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\bin\InnovasysVatCheck.Services.dll.config
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\bin\InnovasysVatCheck.Services.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\bin\InnovasysVatCheck.Services.pdb
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\obj\Debug\InnovasysVatCheck.Services.csprojResolveAssemblyReference.cache
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\obj\Debug\InnovasysVatCheck.Services.csproj.CoreCompileInputs.cache
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\obj\Debug\InnovasysVatCheck.Services.dll
+c:\users\ivo\source\repos\InnovasysVatCheck\InnovasysVatCheck.Services\obj\Debug\InnovasysVatCheck.Services.pdb

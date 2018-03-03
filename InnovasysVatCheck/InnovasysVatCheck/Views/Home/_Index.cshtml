@@ -1,0 +1,19 @@
+﻿@model InnovasysVatCheck.Models.Bindings.CompanyBindingModel
+
+@if (Model.IsValid)
+{
+    <tr style="cursor: pointer">
+        <th class="col-sm-4">Име</th>
+        <th class="col-sm-4">Адрес</th>
+        <th class="col-sm-4">Държава</th>
+    </tr>
+    <tr style="cursor: pointer">
+        <td class="col-sm-4">@Model.Name</td>
+        <td class="col-sm-4">@Model.Address</td>
+        <td class="col-sm-4">@Model.CountryCode</td>
+    </tr>
+}
+else
+{
+   <h1 class="text-center" style="cursor: pointer">Несъществуващ/грешен ДДС Номер</h1>
+}
